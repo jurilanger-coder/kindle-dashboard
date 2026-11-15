@@ -1,0 +1,51 @@
+{
+  "display": {
+    "width": 1072,
+    "height": 1448,
+    "model": "Kindle Paperwhite 3 (7. Gen)"
+  },
+  "location": {
+    "name": "Berlin",
+    "latitude": 52.52,
+    "longitude": 13.405,
+    "timezone": "Europe/Berlin"
+  },
+  "stocks": {
+    "provider": "twelvedata",
+    "api_key": "HIER_DEINEN_SCHLUESSEL_EINTRAGEN",
+    "symbols": [
+      {
+        "symbol": "DAX",
+        "label": "DAX"
+      },
+      {
+        "symbol": "SPX",
+        "label": "S&P 500"
+      },
+      {
+        "symbol": "URTH",
+        "label": "MSCI World"
+      },
+      {
+        "symbol": "BTC/EUR",
+        "label": "Bitcoin"
+      }
+    ],
+    "enabled": false
+  },
+  "news": {
+    "max_items": 6,
+    "feeds": [
+      {
+        "url": "https://www.tagesschau.de/index~rss2.xml",
+        "label": "Tagesschau",
+        "max": 4
+      },
+      {
+        "url": "https://www.heise.de/rss/heise-atom.xml",
+        "label": "heise",
+        "max": 2
+      }
+    ]
+  }
+}
