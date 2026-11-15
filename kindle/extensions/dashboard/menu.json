@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "name": "Dashboard starten",
+      "priority": 1,
+      "action": "./bin/dashboard.sh",
+      "params": "&"
+    },
+    {
+      "name": "Jetzt einmal aktualisieren",
+      "priority": 2,
+      "action": "./bin/once.sh"
+    },
+    {
+      "name": "Dashboard beenden",
+      "priority": 3,
+      "action": "./bin/restore.sh"
+    },
+    {
+      "name": "Verbindung testen",
+      "priority": 4,
+      "action": "./bin/selftest.sh"
+    }
+  ]
+}
